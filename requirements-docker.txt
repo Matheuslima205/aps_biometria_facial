@@ -1,0 +1,7 @@
+opencv-python-headless<5
+scikit-image
+scikit-learn
+numpy
+pillow
+gradio
+requests

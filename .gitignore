@@ -1,0 +1,36 @@
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dados biométricos e imagens
+data/enroll/
+data/test/
+data/db_*.npz
+users.json
+
+# Resultados de execução
+outputs/
+*.csv
+
+# Cache de modelos
+.cache/
+.huggingface/
+**/.cache/
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# IDE e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

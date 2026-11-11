@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    image: aps-biometria
+    container_name: aps-biometria
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./outputs:/app/outputs
